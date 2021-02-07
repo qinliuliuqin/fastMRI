@@ -192,4 +192,5 @@ def run_cli():
 
 
 if __name__ == "__main__":
+    os.environ["CUDA_VISIBLE_DEVICES"] = "4,5,6,7"
     run_cli()
