@@ -81,9 +81,9 @@ def build_args():
     parser = ArgumentParser()
 
     # basic args
-    path_config = pathlib.Path("../../fastmri_dirs.yaml")
+    path_config = pathlib.Path("/shenlab/lab_stor/qinliu/data/fastmri/fastmri_dirs.yaml")
     backend = "ddp"
-    num_gpus = 32
+    num_gpus = 4
     batch_size = 1
 
     # set defaults based on optional directory config
